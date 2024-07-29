@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Job Application Form</h1>
+        <form id="job-application-form">
+            <div class="section">
+                <h2>Personal Information</h2>
+                <div class="first-form">
+                    <div class="first-input">
+                        <label for="first-name">First Name:</label>
+                        <input type="text" id="first-name" name="first-name" title="Enter your first name" required>
+                    </div>
+                    <div class="first-input">
+                        <label for="last-name">Last Name:</label>
+                        <input type="text" id="last-name" name="last-name" title="Enter your last name" required>
+                    </div>
+                    <div class="first-input">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" title="Enter your email address" required>
+                    </div>
+                    <div class="first-input">
+                        <label for="confirm-email">Confirm Email:</label>
+                        <input type="email" id="confirm-email" name="confirm-email" title="Confirm your email address" required>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>Experience</h2>
+                <div id="experience-section"></div>
+                    <div class="buttons">
+                        <button type="button" id="add-experience" class="add"><span>+</span>Add</button>
+                        
+                    </div>
+                        <div id="experience-form-template" class="experience-form hidden" >
+                            <div class="inputs">
+                                <div class="second-input">
+                                    <label for="company">Company:</label>
+                                    <input type="text" name="company" title="Enter company name" placeholder="Company" >
+                                </div>
+                                <div class="second-input">
+                                    <label for="role">Role:</label>
+                                    <input type="text" name="role" title="Enter your role" placeholder="Role">
+                                </div>
+                                <div class="second-input">
+                                    <label for="start-date">Start Date:</label>
+                                    <input type="date" name="start-date" title="Enter start date">
+                                </div>
+                                <div class="second-input">
+                                    <label for="end-date">End Date:</label>
+                                    <input type="date" name="end-date" title="Enter end date" >
+                                </div>
+                                <br>
+                            </div>
+                            <div class="btn">
+                                    <button type="button" id="save-experience">Save</button>
+                                    <button type="button" id="close" class="close-button hidden-button">Close</button>
+                            </div>
+                        </div>
+            </div>
+
+            <div class="section">
+                <h2>Education</h2>
+                <div id="education-section"></div>
+                    <div class="buttons">
+                        <button type="button" id="add-education" class="add"><span>+</span>Add</button>
+                    </div>
+                        <div id="education-form-template" class="education-form hiddenEdu" >
+                            <div class="inputs">
+                                <div class="third-input">
+                                    <label for="institution">Institution:</label>
+                                    <input type="text" name="institution" title="Enter institution name" placeholder="Institution" >
+                                </div>
+                                <div class="third-input">
+                                    <label for="degree">Degree:</label>
+                                    <input type="text" name="degree" title="Enter your degree" placeholder="Degree" >
+                                </div>
+                                <div class="third-input">
+                                    <label for="start-date">Start Date:</label>
+                                    <input type="date" name="start-date" title="Enter start date" >
+                                </div>
+                                <div class="third-input">
+                                    <label for="end-date">End Date:</label>
+                                    <input type="date" name="end-date" title="Enter end date" >
+                                </div>
+                                </div>
+                                <br>
+                                <div class="btn">
+                                    <button type="button" id="save-education">Save</button>
+                                    <button type="button" id="close-education" class="close-buttonEdu hidden-buttonEdu">Close</button>
+                                </div>
+                        </div>
+            </div>
+
+            <div class="section">
+                <h2>Resume</h2>
+                    <div id="drop-zone">
+                        <p>Drag and drop your file here, or click to select a file</p>
+                        <input type="file" id="cv" name="cv" title="Upload your CV" required>
+                    </div>
+                <div class="delete">
+                    <button type="button" id="delete-cv" class="hidden">Delete File</button>
+                </div>
+            </div>
+            <div class="submit">
+            <button type="submit" class="submit-button">Submit</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="form.js"></script>
+</body>
+</html>

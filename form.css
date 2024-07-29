@@ -1,0 +1,240 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 55%;
+    margin: auto;
+    background: white;
+    padding: 1.6rem;
+    box-shadow: 0 0 0.8rem rgba(0, 0, 0, 0.1);
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+.section {
+    margin-bottom: 1.4rem;
+    border-top: 0.2rem solid #ccc;
+}
+
+label, #drop-zone {
+    display: block;
+    margin-bottom: 0.2rem;
+    font-size: 1.3rem;
+    color: rgb(124, 131, 133);
+    color: rgb(124, 131, 133);
+}
+
+input[type="text"], input[type="email"], input[type="date"]{
+    width: 80%;
+    padding: 0.7rem;
+    margin-bottom: 10px;
+    border: 0.1rem solid #ccc;
+    border-radius: 0.3rem;
+    font-size: 1.3rem;
+}
+
+
+#drop-zone {
+    border: 2px dashed #ccc;
+    border-radius: 4px;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+}
+
+#drop-zone p {
+    margin: 0;
+}
+
+#drop-zone input[type="file"] {
+    display: none;
+}
+
+#drop-zone.dragover {
+    border-color: #4CAF50;
+}
+
+.first-input {
+    display: block;
+    width: 50%;
+}
+
+.second-input {
+    display: block;
+    width: 50%;
+}
+
+.third-input {
+    display: block;
+    width: 50%;
+}
+
+.first-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.6rem 1.2rem;
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    margin-top: 0.8rem;
+    font-size: 1.2rem;
+    padding: 0.5rem 1.5rem;
+}
+
+button:hover {
+    box-shadow:  2px 2px 12px lightblue;
+}
+
+.add {
+    color: #4CAF50;
+    border: 0.2rem solid  #4CAF50;
+    background-color: white;
+    border-radius: 1rem;
+    font-weight: bold;
+}
+
+.add span {
+    padding-right: 0.8rem;
+}
+
+.close-button, .close-buttonEdu {
+    color: #4CAF50;
+    border: 0.2rem solid  #4CAF50;
+    background-color: white;
+    border-radius: 1rem;
+    font-weight: bold;
+}
+
+.submit {
+    border-top: 0.2rem solid #ccc;
+    padding-top: 3rem;
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+.hidden-button {
+    display: none;
+}
+
+.hidden-buttonEdu {
+    display: none;
+}
+
+
+.experience-form {
+    position: relative;
+    border: 0.1rem solid #ccc;
+    padding: 0.8rem;
+    margin-bottom: 0.8rem;
+    border-radius: 0.3rem;
+    
+}
+
+.inputs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.education-form {
+    position: relative;
+    border: 0.1rem solid #ccc;
+    padding: 0.8rem;
+    margin-bottom: 0.8rem;
+    border-radius: 0.3rem;
+}
+
+
+#save-experience, #save-education, .submit-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.8rem 1.4rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    margin-top: 0.8rem;
+}
+
+.delete {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.delete-experience {
+    background-color: #f44336;
+    color: white;
+    padding: 0.4rem 0.8rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    margin-top: 0.8rem;
+
+}
+
+.delete-education, #delete-cv {
+    background-color: #f44336;
+    color: white;
+    padding: 0.4rem 0.8rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    margin-top: 0.8rem;
+}
+
+
+.hidden {
+    display: none;
+}
+
+.hiddenEdu {
+    display: none;
+}
+
+.fade-in {
+    animation: fadeIn 0.5s;
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+
