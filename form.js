@@ -155,7 +155,7 @@ document.getElementById('job-application-form').addEventListener('submit', funct
         console.log(`${key}: ${value}`);
     }
 
-    alert('Form submitted!');
+    alert('The application has been sent');
 });
 
 
