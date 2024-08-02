@@ -271,26 +271,26 @@ button:hover {
         border-radius: 0.3rem;
         cursor: pointer;
         margin-top: 0.8rem;
-        font-size: 0.7rem;
-        padding: 0.2rem 0.6rem;
+        font-size: 1rem;
+        padding: 0.4rem 0.8rem;
     }
 
     
     .close-button, .close-buttonEdu, .add {
-        border: 0.12rem solid  #4CAF50;
+        border: 0.2rem solid  #4CAF50;
         font-weight: bold;
     }
 
     .first-input {
-        width: 100%;
+        width: 90%;
     }
     
     .second-input {
-        width: 100%;
+        width: 90%;
     }
     
     .third-input {
-        width: 100%;
+        width: 90%;
     }
 
     .add span {
@@ -308,10 +308,6 @@ button:hover {
         margin: auto;
         width: 100%;
     }
-    .section {
-        margin: auto;
-        width: 90%;
-        margin-bottom: 1rem;
-    }
+
 
 }
