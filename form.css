@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
-    margin: 0;
+    margin: auto;
     padding: 0;
 }
 
@@ -176,12 +176,7 @@ button:hover {
 #save-experience, #save-education, .submit-button {
     background-color: #4CAF50;
     color: white;
-    padding: 0.8rem 1.4rem;
-    font-weight: bold;
-    border: none;
-    border-radius: 1rem;
-    cursor: pointer;
-    margin-top: 0.8rem;
+    border-radius: 0.8rem;
 }
 
 .delete {
@@ -238,6 +233,9 @@ button:hover {
 
 
 @media (max-width: 1200px) {
+    .container {
+        width: 60%;
+    }
     .first-form {
         flex-direction: column;
         align-items: flex-start;
@@ -250,19 +248,20 @@ button:hover {
     }
 
     h1 {
-        font-size: 1rem;
+        font-size: 1.3rem;
     }
     h2 {
-        font-size: 1rem;
+        font-size: 1.3rem;
     }
 
     label, #drop-zone {
-        font-size: 0.6rem;
+        font-size: 0.9rem;
     }
     
     input[type="text"], input[type="email"], input[type="date"]{
-        font-size: 0.6rem;
+        font-size: 0.9rem;
         width: 90%;
+        height: 0.4rem;
     }
 
     button {
@@ -272,8 +271,13 @@ button:hover {
         border-radius: 0.3rem;
         cursor: pointer;
         margin-top: 0.8rem;
-        font-size: 0.6rem;
+        font-size: 0.7rem;
         padding: 0.2rem 0.6rem;
+    }
+
+    
+    .close-button, .close-buttonEdu, .add {
+        border: 0.16rem solid  #4CAF50;
     }
 
     .first-input {
@@ -294,4 +298,19 @@ button:hover {
     .delete {
         justify-content: flex-start;
     }
+
+
+}
+
+@media (max-width: 360px) {
+    .container {
+        margin: auto;
+        width: 100%;
+    }
+    .section {
+        margin: auto;
+        width: 90%;
+        margin-bottom: 1rem;
+    }
+
 }
