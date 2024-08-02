@@ -245,7 +245,6 @@ button:hover {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        margin: auto;
     }
 
     h1 {
@@ -309,9 +308,9 @@ button:hover {
 
 @media (max-width: 400px) {
     .container {
+        width: 85%;
         margin: auto;
-        width: 100%;
+       
     }
-
 
 }
