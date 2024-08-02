@@ -245,6 +245,7 @@ button:hover {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
+        margin: auto;
     }
 
     h1 {
@@ -282,15 +283,18 @@ button:hover {
     }
 
     .first-input {
-        width: 90%;
+        margin: auto;
+        width: 100%;
     }
     
     .second-input {
-        width: 90%;
+        margin: auto;
+        width: 100%;
     }
     
     .third-input {
-        width: 90%;
+        margin: auto;
+        width: 100%;
     }
 
     .add span {
