@@ -277,7 +277,8 @@ button:hover {
 
     
     .close-button, .close-buttonEdu, .add {
-        border: 0.16rem solid  #4CAF50;
+        border: 0.12rem solid  #4CAF50;
+        font-weight: bold;
     }
 
     .first-input {
@@ -302,7 +303,7 @@ button:hover {
 
 }
 
-@media (max-width: 360px) {
+@media (max-width: 400px) {
     .container {
         margin: auto;
         width: 100%;
