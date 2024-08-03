@@ -16,5 +16,5 @@ The Job Form Application is a simple and efficient tool designed to streamline t
 - CSS 
 - JavaScript
 
-### 4 Usage
+### 4. Usage
 You can access the live application via this <https://fillazic.github.io/Forma/>
